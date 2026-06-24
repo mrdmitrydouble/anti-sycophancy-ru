@@ -1,0 +1,6 @@
+.DS_Store
+
+# Local, per-project plugin state (created in the USER's project, never in this repo —
+# listed here defensively so a contributor's own runtime files don't get committed)
+.claude/as-metrics.jsonl
+.claude/.as-mode

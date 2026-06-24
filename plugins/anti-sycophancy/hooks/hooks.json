@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "DIR=\"${CLAUDE_PROJECT_DIR:-$PWD}\"; case \"$DIR\" in /*) mkdir -p \"$DIR/.claude\" 2>/dev/null; printf '{\"ts\":\"%s\",\"event\":\"subagent_stop\"}\\n' \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" >> \"$DIR/.claude/as-metrics.jsonl\" 2>/dev/null ;; esac; true"
+          }
+        ]
+      }
+    ]
+  }
+}

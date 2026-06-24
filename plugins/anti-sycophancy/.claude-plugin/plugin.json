@@ -1,0 +1,19 @@
+{
+  "name": "anti-sycophancy",
+  "description": "Independent critic subagents that review the assistant's drafts for sycophancy — flattery, ungrounded agreement, taking sides, status verdicts — before they reach you. Couple and solo modes; content-free local metrics. Toggle on/off.",
+  "version": "0.2.2",
+  "author": {
+    "name": "Dmitry Rubin"
+  },
+  "repository": "https://github.com/mrdmitrydouble/anti-sycophancy",
+  "homepage": "https://github.com/mrdmitrydouble/anti-sycophancy#readme",
+  "license": "MIT",
+  "keywords": [
+    "sycophancy",
+    "anti-sycophancy",
+    "critic",
+    "honesty",
+    "review",
+    "guardrail"
+  ]
+}
