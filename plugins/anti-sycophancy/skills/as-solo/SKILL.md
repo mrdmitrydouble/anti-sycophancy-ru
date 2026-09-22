@@ -13,4 +13,4 @@ When this skill is invoked:
    - **Solo-relational** (the user discusses a person who is NOT here): as-solo-guardian checks fairness to that absent person — no absentee verdicts, no diagnosis-by-proxy, present their likely position.
    - **Solo-self** (pure self-analysis, no absent person): as-solo-guardian returns n/a. as-critic-blind still guards against ontological verdicts about the user ("you are X / healthy / ill / different") and single-interpretation framing.
 
-Follow the full protocol (see the `as-orchestrator` agent): as-critic-blind always; as-solo-guardian when an absent person is discussed; as-safety only on a deterministic gate hit; one rewrite pass.
+Follow the full protocol (see the `as-orchestrator` agent): as-critic-blind always; as-solo-guardian when an absent person is discussed; as-safety only on a deterministic gate hit; one rewrite pass. Pass drafts and quotes inline between `"""` fences (the input guard refuses file paths) and use only verdicts the verification note marks VALID.

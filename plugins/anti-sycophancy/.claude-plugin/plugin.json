@@ -1,7 +1,7 @@
 {
   "name": "anti-sycophancy",
   "description": "Independent critic subagents that review the assistant's drafts for sycophancy — flattery, ungrounded agreement, taking sides, status verdicts — before they reach you. Couple and solo modes; content-free local metrics. Toggle on/off.",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "author": {
     "name": "Dmitry Rubin"
   },
